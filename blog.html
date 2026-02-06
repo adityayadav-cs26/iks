@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Interior King Studio</title>
+    <meta name="description" content="Explore interior design tips, trends, and inspiration on the Interior King Studio blog. Expert advice for creating beautiful spaces.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <img src="images/logo.jpg" alt="Interior King Studio Logo">
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="images/logo.jpg" alt="Interior King Studio" class="logo-img">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="blog.html" class="active">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="page-header-content">
+            <h1>Our <span>Blog</span></h1>
+            <div class="breadcrumbs">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <span>Blog</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Featured Post -->
+    <section class="section" style="background: var(--black-secondary);">
+        <div style="max-width: 1400px; margin: 0 auto;">
+            <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 50px; align-items: center;" class="reveal">
+                <div style="position: relative;">
+                    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1200" alt="2026 Interior Design Trends" style="width: 100%;">
+                    <div class="blog-date" style="position: absolute; top: 20px; left: 20px;">
+                        <span class="day">15</span>
+                        <span class="month">JAN</span>
+                    </div>
+                </div>
+                <div>
+                    <span style="color: var(--gold-primary); font-size: 0.85rem; letter-spacing: 2px; text-transform: uppercase;">Featured Article</span>
+                    <h2 style="font-size: 2rem; margin: 15px 0 20px; font-weight: 300;">Top Interior Design Trends to Watch in 2026</h2>
+                    <p style="color: var(--white-muted); line-height: 1.8; margin-bottom: 25px;">Discover the hottest interior design trends shaping homes and commercial spaces this year. From sustainable materials to bold color palettes, we explore what's defining modern interiors.</p>
+                    <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 25px;">
+                        <div style="width: 50px; height: 50px; border-radius: 50%; overflow: hidden; border: 2px solid var(--gold-primary);">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200" alt="Sarah Mitchell" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div>
+                            <p style="color: var(--gold-primary); margin-bottom: 3px;">Sarah Mitchell</p>
+                            <p style="font-size: 0.85rem; color: var(--white-muted);">Creative Director</p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">Read Full Article</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts Grid -->
+    <section class="section">
+        <div class="section-header reveal">
+            <p class="section-subtitle">Latest Articles</p>
+            <h2 class="section-title">Design <span>Inspiration</span></h2>
+        </div>
+        
+        <div class="blog-grid">
+            <article class="blog-card reveal stagger-1">
+                <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=800" alt="Color Psychology">
+                    <div class="blog-date">
+                        <span class="day">12</span>
+                        <span class="month">JAN</span>
+                    </div>
+                </div>
+                <div class="blog-content">
+                    <p class="blog-category">Design Tips</p>
+                    <h3 class="blog-title">The Psychology of Color in Interior Design</h3>
+                    <p class="blog-excerpt">Learn how different colors affect mood and behavior, and how to use color psychology to create the perfect atmosphere in every room.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+            
+            <article class="blog-card reveal stagger-2">
+                <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800" alt="Small Space Design">
+                    <div class="blog-date">
+                        <span class="day">08</span>
+                        <span class="month">JAN</span>
+                    </div>
+                </div>
+                <div class="blog-content">
+                    <p class="blog-category">Space Planning</p>
+                    <h3 class="blog-title">Maximizing Small Spaces: Expert Tips</h3>
+                    <p class="blog-excerpt">Discover clever strategies and design tricks to make the most of compact living spaces without sacrificing style or comfort.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+            
+            <article class="blog-card reveal stagger-3">
+                <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800" alt="Sustainable Design">
+                    <div class="blog-date">
+                        <span class="day">05</span>
+                        <span class="month">JAN</span>
+                    </div>
+                </div>
+                <div class="blog-content">
+                    <p class="blog-category">Sustainability</p>
+                    <h3 class="blog-title">Sustainable Interior Design: A Complete Guide</h3>
+                    <p class="blog-excerpt">Explore eco-friendly materials, energy-efficient solutions, and sustainable practices for creating beautiful, environmentally conscious spaces.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+            
+            <article class="blog-card reveal stagger-4">
+                <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800" alt="Lighting Design">
+                    <div class="blog-date">
+                        <span class="day">02</span>
+                        <span class="month">JAN</span>
+                    </div>
+                </div>
+                <div class="blog-content">
+                    <p class="blog-category">Lighting</p>
+                    <h3 class="blog-title">The Art of Layered Lighting</h3>
+                    <p class="blog-excerpt">Master the three layers of lighting—ambient, task, and accent—to create depth, drama, and functionality in any space.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+            
+            <article class="blog-card reveal stagger-5">
+                <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1600573472592-401b489a3cdc?w=800" alt="Texture and Pattern">
+                    <div class="blog-date">
+                        <span class="day">28</span>
+                        <span class="month">DEC</span>
+                    </div>
+                </div>
+                <div class="blog-content">
+                    <p class="blog-category">Design Elements</p>
+                    <h3 class="blog-title">Mixing Textures and Patterns Like a Pro</h3>
+                    <p class="blog-excerpt">Learn the secrets to combining different textures and patterns to create visually rich, harmonious interiors.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+            
+            <article class="blog-card reveal stagger-1">
+                <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800" alt="Home Office Design">
+                    <div class="blog-date">
+                        <span class="day">22</span>
+                        <span class="month">DEC</span>
+                    </div>
+                </div>
+                <div class="blog-content">
+                    <p class="blog-category">Home Office</p>
+                    <h3 class="blog-title">Creating the Perfect Home Office</h3>
+                    <p class="blog-excerpt">Design a productive and inspiring workspace at home with these expert tips on ergonomics, lighting, and organization.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+        </div>
+        
+        <div style="text-align: center; margin-top: 50px;" class="reveal">
+            <a href="#" class="btn">Load More Articles</a>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="section" style="background: var(--black-secondary);">
+        <div class="section-header reveal">
+            <p class="section-subtitle">Browse Topics</p>
+            <h2 class="section-title">Blog <span>Categories</span></h2>
+        </div>
+        
+        <div class="services-grid" style="max-width: 1000px;">
+            <a href="#" class="service-card reveal stagger-1" style="text-align: center;">
+                <div class="service-icon">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <h3 class="service-title">Design Tips</h3>
+                <p class="service-description">Practical advice and expert insights for creating beautiful spaces.</p>
+            </a>
+            
+            <a href="#" class="service-card reveal stagger-2" style="text-align: center;">
+                <div class="service-icon">
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <h3 class="service-title">Sustainability</h3>
+                <p class="service-description">Eco-friendly design solutions and sustainable practices.</p>
+            </a>
+            
+            <a href="#" class="service-card reveal stagger-3" style="text-align: center;">
+                <div class="service-icon">
+                    <i class="fas fa-home"></i>
+                </div>
+                <h3 class="service-title">Room Guides</h3>
+                <p class="service-description">In-depth guides for designing specific rooms in your home.</p>
+            </a>
+            
+            <a href="#" class="service-card reveal stagger-4" style="text-align: center;">
+                <div class="service-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3 class="service-title">Trends</h3>
+                <p class="service-description">Latest design trends and emerging styles in interior design.</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="section" style="text-align: center;">
+        <div class="reveal" style="max-width: 600px; margin: 0 auto;">
+            <div class="service-icon" style="font-size: 3rem; margin-bottom: 20px;">
+                <i class="fas fa-envelope-open-text"></i>
+            </div>
+            <h2 class="section-title" style="margin-bottom: 20px;">Subscribe to Our <span>Newsletter</span></h2>
+            <p style="color: var(--white-muted); margin-bottom: 30px;">Get the latest design tips, trends, and inspiration delivered straight to your inbox every week.</p>
+            <form style="display: flex; gap: 15px; flex-wrap: wrap; justify-content: center;">
+                <input type="email" placeholder="Enter your email" style="flex: 1; min-width: 250px; padding: 15px; background: var(--black-secondary); border: 1px solid var(--black-tertiary); color: var(--white); font-size: 1rem;">
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <img src="images/logo.jpg" alt="Interior King Studio" class="logo-img">
+                <p>Transforming spaces into extraordinary experiences. We bring your vision to life with passion, creativity, and unparalleled attention to detail.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links-column">
+                <h4 class="footer-title">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links-column">
+                <h4 class="footer-title">Services</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Residential Design</a></li>
+                    <li><a href="#">Commercial Design</a></li>
+                    <li><a href="#">Furniture Design</a></li>
+                    <li><a href="#">Space Planning</a></li>
+                    <li><a href="#">Consultation</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links-column">
+                <h4 class="footer-title">Contact</h4>
+                <ul class="footer-links">
+                    <li><i class="fas fa-map-marker-alt" style="color: var(--gold-primary); margin-right: 10px;"></i> 123 Design Street, NYC</li>
+                    <li><i class="fas fa-phone" style="color: var(--gold-primary); margin-right: 10px;"></i> +1 (555) 123-4567</li>
+                    <li><i class="fas fa-envelope" style="color: var(--gold-primary); margin-right: 10px;"></i> info@interiorking.com</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 <span>Interior King Studio</span>. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
